@@ -1,23 +1,19 @@
-Tilastokeskuksen-asuntoanalytiikkaa tilanne 22.2.2021
 
-Tilastokeskuksen asuntoanalytiikkaa
+Statistics Finland's housing analytics
 
-Tilastokeskuksen avoin data: Vanhojen osakeasuntojen hinnat eriytyvät Suomessa
+Statistics Finland's open data: The prices of old share housing vary in Finland
 
-Miten vanhojen osakehuoneistojen hinnat ovat kehittyneet viimeisen vuoden aikana pääkaupunkiseudulla ja muualla Suomessa? Onko hinnat kehittyneet samaan suuntaan vai eri suuntaan? Kysymys on olennainen, koska suomalaisten omaisuudesta suurin osa on sijoitettu lattioihin, seiniin ja kattoihin.
+How have the prices of old condominiums developed over the past year in the Helsinki metropolitan area and elsewhere in Finland? Have prices developed in the same direction or in different directions? The question is essential because most of Finnish property is located on floors, walls and ceilings.
 
-Näihin kysymyksiin hain vastauksia, kun kävin läpi Tilastokeskuksen tietokantoja ja tein poiminnan vuosilta 2015-2021 (Vanhojen osakeasuntojen hintaindeksi (2015=100)). Poiminta olivat kauppojen lukumäärät kuukausittain". 
+I searched for answers to these questions when I went through Statistics Finland's databases and made a selection from 2015-2021 (Price index of old share dwellings (2015 = 100)). The sample was the number of transactions per month ".
 
-Kyseiseen tietokantaan pääsee osoitteesta http://pxnet2.stat.fi/PXWeb/pxweb/fi/StatFin/StatFin__asu__ashi__kk/?tablelist=true
-Aineistoa käsittelin Pythonilla. Artikkelin lopussa on linkki Python-koodiin.
+The database can be accessed at http://pxnet2.stat.fi/PXWeb/pxweb/fi/StatFin/StatFin__asu__ashi__kk/?tablelist=true I processed the material with Python. At the end of the article is a link to the Python code.
 
-Miten vanhojen osakehuoneistojen hinnat ovat kehittyneet viimeisen vuoden aikana pääkaupunkiseudulla ja muualla Suomessa? Alla olevassa kuvassa näkyy kehitys, jossa hinnat ovat eriytyneet jyrkästi vuodesta 2015 alkaen pääkaupunkiseudulla ja muualla Suomessa. 
+How have the prices of old condominiums developed over the past year in the Helsinki metropolitan area and elsewhere in Finland? The figure below shows the development in which prices have sharply differentiated since 2015 in the Helsinki metropolitan area and elsewhere in Finland.
 
-Vuonna 2021 pääkaupunkiseudulla neliöhinta on noussut noin 22 prosenttia 4300 euroon, kun vuonna 2015 neliö maksoi koko maassa noin 3500 euroa. 
+In 2021, the price per square meter in the Helsinki Metropolitan Area has risen by about 22 per cent to 4,300 euros, while in 2015 the square meter cost about 3,500 euros in the whole country.
 
-Muualla Suomessa neliöhinta on vaihdellut ikään kuin kausiluonteisesti vuosina 2015–2021. Vuonna 2015 muualla Suomessa neliö maksoi noin 1610 euroa, kun vuonna 2021 neliö maksoi noin 1650 euroa. Hintataso on siis pysynyt siis suht koht vakaana. 
+Elsewhere in Finland, the price per square meter has fluctuated as if seasonally in 2015–2021. In 2015, elsewhere in Finland, a square cost about 1610 euros, while in 2021 a square cost about 1650 euros. The price level has thus remained relatively stable.
 
-Vuonna 2021 koko maassa neliöhinta on noussut noin kymmenen prosenttia 2300 euroon, kun vuonna 2015 neliö maksoi koko maassa noin 2100 euroa. 
+In 2021, the price per square meter in the whole country has risen by about ten percent to 2,300 euros, while in 2015 the square meter cost about 2,100 euros in the whole country.
 
-Kuvaus koodista on nähtävissä github-profiilissani: 
-https://github.com/markok20/Tilastokeskuksen-asuntoanalytiikkaa
